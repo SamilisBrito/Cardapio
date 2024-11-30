@@ -1,71 +1,75 @@
 /*seletor universal*/
 * {
-    margin: 0; /*sem espaços*/
-    padding: 0; /*sem preenchimento*/
-  }
-  
-  /*TODO O CORPO DESTA COR QUE ESTÁ EM HEXADECIMAL, SÓ PÔR O "#" QUE ELE VAI ENTENDER*/
-  body {
-   background-color: #FFEDD5;
-   font-family: 'Roboto', sans-serif;
-  }
-  header{
-    text-align: center;
-    padding: 32px 0;
-  }
-  section{
-    margin-bottom: 24px;
-  }
-  section, header {
-    max-width: 300px; /*largura máxima da caixa*/
-    margin: 0 auto; /* topo | horizontal | inferior */
-    /*border: 1px solid red;*/
-  }
-  header h1 span{
-    color: #995000;
-  }
-  header h1{
-    margin-bottom: 4px;
-    font-size: 28px;
-    line-height: 33px;
-  }
-  section h2{
-    /*border: 1px solid blue;*/
-    text-align: center;
-    background-color: #FED7AA;
-    padding: 8px 16px;
-    margin-bottom: 24px;
-    font-size: 18px;
-  }
-  /*RETIRAR O ESTILO DA BOLINHA DA LISTA*/
-  ul li{
-    list-style: none;
-    margin-bottom: 16px;
-    display: flex;
-  }
-  li .detalhes{
-    max-width: 230px;
-  }
-  .detalhes h3{
-    margin-bottom: 8px;
-    font-size: 16px;
-  }
-   /*fonte*/
-  .detalhes p {
-    color: rgba(0, 0, 0, 0.6); /*0.6 é a transparência. Max é 1.0*/
-    font-size: 14px;
-    line-height: 21px;
-  }
-  h1, h2, h3, .preço{
-    font-family: 'Roboto Serif', serif;
-    text-transform: uppercase;
-    color: #2D2C2A;
-  }
-  header p{
-    font-size: 14px;
-    line-height: 16px;
-    color: rgba(0, 0, 0, 0.7);
-  }
-  .detalhes{
-    text-align: justify;
-  }
+  margin: 0; /*sem espaços*/
+  padding: 0; /*sem preenchimento*/
+}
+
+/*TODO O CORPO DESTA COR QUE ESTÁ EM HEXADECIMAL, SÓ PÔR O "#" QUE ELE VAI ENTENDER*/
+body {
+  background-color: #ffedd5;
+  font-family: "Roboto", sans-serif;
+}
+header {
+  text-align: center;
+  padding: 32px 0;
+}
+section {
+  margin-bottom: 24px;
+}
+section,
+header {
+  max-width: 300px; /*largura máxima da caixa*/
+  margin: 0 auto; /* topo | horizontal | inferior */
+  /*border: 1px solid red;*/
+}
+header h1 span {
+  color: #995000;
+}
+header h1 {
+  margin-bottom: 4px;
+  font-size: 28px;
+  line-height: 33px;
+}
+section h2 {
+  /*border: 1px solid blue;*/
+  text-align: center;
+  background-color: #fed7aa;
+  padding: 8px 16px;
+  margin-bottom: 24px;
+  font-size: 18px;
+}
+/*RETIRAR O ESTILO DA BOLINHA DA LISTA*/
+ul li {
+  list-style: none;
+  margin-bottom: 16px;
+  display: flex;
+}
+li .detalhes {
+  max-width: 230px;
+}
+.detalhes h3 {
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+/*fonte*/
+.detalhes p {
+  color: rgba(0, 0, 0, 0.6); /*0.6 é a transparência. Max é 1.0*/
+  font-size: 14px;
+  line-height: 21px;
+}
+h1,
+h2,
+h3,
+.preço {
+  font-family: "Roboto Serif", serif;
+  text-transform: uppercase;
+  color: #2d2c2a;
+}
+header p {
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(0, 0, 0, 0.7);
+}
+.detalhes {
+  text-align: justify;
+}
